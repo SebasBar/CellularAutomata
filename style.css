@@ -9,6 +9,11 @@ body {
   background: white;
 }
 
+.info {
+  display: flex;
+  align-items: center;
+}
+
 .user-input {
   display: flex;
   justify-content: space-evenly;
