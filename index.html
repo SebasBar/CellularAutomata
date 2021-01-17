@@ -7,9 +7,27 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-      <h1> Cellular Automata </h1>
-      <div class="space">  </div>
-    <canvas width="3600" height="1800"></canvas>
-    <script src="./cellAuto.js"></script>
+      <h1> Welcome to Cellular Automata Generator </h1>
+      <h3>Example:</h3>
+      <script src="./cellAuto.js"></script>
+      <img src='./pics/rule_22.png' />
+      <h2>Choose the rule</h2>
+      <div class="user-input">
+      <input class="input-bit" type="number" id="firstInput" value="0" min="0" max="1"/>
+      <input class="input-bit" type="number" id="secondInput" value="0" min="0" max="1"/>
+      <input class="input-bit" type="number" id="thirdInput" value="0" min="0" max="1"/>
+      <input class="input-bit" type="number" id="forthInput" value="0" min="0" max="1"/>
+      <input class="input-bit" type="number" id="fifthInput" value="0" min="0" max="1"/>
+      <input class="input-bit" type="number" id="sixthInput" value="0" min="0" max="1"/>
+      <input class="input-bit" type="number" id="seventhInput" value="0" min="0" max="1"/>
+      <input class="input-bit" type="number" id="eigthInput" value="0" min="0" max="1"/>
+    </div>
+
+    <div class="space">   </div>
+      <button class="button" onclick="CellAutomata()"><strong>click here to Generate Cellular Automata</strong></button>
+      <div class="space">   </div>
+    <canvas width="1500" height="750"></canvas>
+
+ 
   </body>
 </html>
