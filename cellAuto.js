@@ -3,9 +3,9 @@ function CellAutomata() {
   const ctx = canvas.getContext("2d");
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-  const tile = 10;
-  const canvaHeight = 800;
-  const canvaWidth = 1200;
+  const tile = 5;
+  const canvaHeight = 1200;
+  const canvaWidth = 1800;
 
   const canvaGridXNum = Math.round(canvaWidth / tile);
   const canvaGridYNum = Math.round(canvaHeight / tile);
